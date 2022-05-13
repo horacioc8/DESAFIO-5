@@ -259,4 +259,20 @@ textarea{
     }
 
 
+    @keyframes caja{
+        0%   {background-color: darkolivegreen;}
+        25%  {background-color: darkgray;}
+        50%  {background-color: slategray;}
+        100% {background-color: cornflowerblue;}
+    }
+
+    .caja{
+        
+        animation-name: caja;
+    
+        animation-iteration-count: infinite ;
+        animation-timing-function: ease-in;
+        animation-duration: 2s;
+        animation-delay: 3s;
+    }
 
