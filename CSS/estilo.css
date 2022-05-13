@@ -127,9 +127,10 @@ input{
 
     color:#2f3e46; 
     font-size: x-large;
-    background-color: #D3D0CB;
+    background-image: radial-gradient(#bee3db,#D3D0CB) ;
     border: 2px #2f3e46 solid; 
     font-family: 'Anton';
+    padding: 20px;
 }
 
 
@@ -256,3 +257,6 @@ textarea{
       grid-row: 2 ;
       height: 400px;
     }
+
+
+
